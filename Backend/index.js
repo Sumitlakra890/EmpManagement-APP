@@ -7,17 +7,16 @@ const cors = require('cors')
 
 require('dotenv').config();
 const PORT = process.env.PORT || 8080;
+
+app.use(bodyParser.json());
+app.use(cors());
+
 require('./Models/db');
 const EmployeeRouter = require('./Routes/EmployeeRoutes');
 
 app.get('/',(req,res)=>{
     res.send('Employee Mgn server is running');
 })
-
-//jaise hi  url  ata api/employee render in routers
-//middleware
-app.use(bodyParser.json());
-app.use(cors());
 
 app.use('/api/employees',EmployeeRouter);
 
