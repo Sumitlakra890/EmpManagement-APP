@@ -1,7 +1,12 @@
 // all the api to fetch the data from server 
 //provide the url
 
+<<<<<<< HEAD
 const Base_URL = 'http://localhost:8080';
+=======
+// const Base_URL = 'http://localhost:8080';
+const Base_URL = 'https://empmanagement-app.onrender.com';
+>>>>>>> 00745b2 (initial commit)
 export const GetAllEmployees = async (search ='',page = 1,limit = 5) =>{
     const url =`${Base_URL}/api/employees?search=${search}&page=${page}&limit=${limit}`;
  try{
