@@ -1,9 +1,6 @@
 // all the api to fetch the data from server 
 //provide the url
 
-<<<<<<< HEAD
-const Base_URL = 'http://localhost:8080';
-=======
 // const Base_URL = 'http://localhost:8080';
 const Base_URL = 'https://empmanagement-app.onrender.com';
 >>>>>>> 00745b2 (initial commit)
