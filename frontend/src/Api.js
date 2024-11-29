@@ -2,7 +2,7 @@
 //provide the url
 
 // const Base_URL = 'http://localhost:8080';
-const Base_URL = 'https://empmanagement-app.onrender.com';
+const Base_URL = 'https://empmanagement-app-2.onrender.com';
 
 export const GetAllEmployees = async (search ='',page = 1,limit = 5) =>{
     const url =`${Base_URL}/api/employees?search=${search}&page=${page}&limit=${limit}`;
