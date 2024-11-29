@@ -4,12 +4,8 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-<<<<<<< HEAD
     "start": "node index.js",
     "dev": "nodemon index.js"
-=======
-    "start": "nodemon index.js"
->>>>>>> 00745b2 (initial commit)
   },
   "keywords": [],
   "author": "",
